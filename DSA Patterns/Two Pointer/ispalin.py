@@ -12,7 +12,6 @@ def is_palindrome(s):
             right -= 1
 
         if s[left].lower() != s[right].lower():
-            # Replace this placeholder "pass" statement with your code
             return False
         
         left += 1
